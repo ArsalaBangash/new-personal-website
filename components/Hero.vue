@@ -1,29 +1,56 @@
 <template>
   <section class="text-gray-600 body-font">
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-        <br class="hidden lg:inline-block">readymade gluten
-      </h1>
-      <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+    <div
+      class="container mx-auto flex px-24 md:flex-row flex-col items-center"
+    >
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+      >
+        <h1
+          class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+        >
+          Salaam, I'm Arsala 👋
+        </h1>
+        <p class="mb-6 leading-relaxed">
+          I'm a technological problem solver who specializes as a creator and
+          software engineer.
+        </p>
+        <p class="mb-6 leading-relaxed">
+          I discovered my passion for teaching and building open-source
+          technology during my Computer Science undergraduate degree at UofT's
+          Mississauga campus. There, I served as a Teaching Assistant and
+          coordinator of a department initiative called the Hacklab which helped
+          students bring their tech ideas to life.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          In the industry, I have worked as a software engineer at Google and
+          Vida. I loved working with teams to bring a common vision to the
+          people. I was grateful for the opportunities for growth in design and
+          product research & development that were made available to me there.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          Currently, I am the founder and president of Grey Software, a
+          not-for-profit organization that empowers students to build
+          open-source software for their communities and societies.
+          https://grey.software
+        </p>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img
+          class="object-cover object-center rounded"
+          alt="hero"
+          src="/hero.jpg"
+        />
       </div>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
-    </div>
-  </div>
-</section>
+  </section>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>

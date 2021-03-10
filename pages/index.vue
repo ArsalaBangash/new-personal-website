@@ -1,11 +1,12 @@
 <template>
-  <Hero/>
+  <div class="container mx-auto">
+    <Hero />
+  </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style>
-
 </style>
